@@ -1,0 +1,11 @@
+E:\Hasnaa\Address-book\AddressBook\AddressBook.Core\bin\Debug\net8.0\AddressBook.Core.deps.json
+E:\Hasnaa\Address-book\AddressBook\AddressBook.Core\bin\Debug\net8.0\AddressBook.Core.dll
+E:\Hasnaa\Address-book\AddressBook\AddressBook.Core\bin\Debug\net8.0\AddressBook.Core.pdb
+E:\Hasnaa\Address-book\AddressBook\AddressBook.Core\obj\Debug\net8.0\AddressBook.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hasnaa\Address-book\AddressBook\AddressBook.Core\obj\Debug\net8.0\AddressBook.Core.AssemblyInfoInputs.cache
+E:\Hasnaa\Address-book\AddressBook\AddressBook.Core\obj\Debug\net8.0\AddressBook.Core.AssemblyInfo.cs
+E:\Hasnaa\Address-book\AddressBook\AddressBook.Core\obj\Debug\net8.0\AddressBook.Core.csproj.CoreCompileInputs.cache
+E:\Hasnaa\Address-book\AddressBook\AddressBook.Core\obj\Debug\net8.0\AddressBook.Core.dll
+E:\Hasnaa\Address-book\AddressBook\AddressBook.Core\obj\Debug\net8.0\refint\AddressBook.Core.dll
+E:\Hasnaa\Address-book\AddressBook\AddressBook.Core\obj\Debug\net8.0\AddressBook.Core.pdb
+E:\Hasnaa\Address-book\AddressBook\AddressBook.Core\obj\Debug\net8.0\ref\AddressBook.Core.dll
