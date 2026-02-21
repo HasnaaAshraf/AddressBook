@@ -1,0 +1,43 @@
+<div class="page-container">
+  <h2 class="mb-4 text-center">Jobs</h2>
+
+  <form (ngSubmit)="addJob()" #jobForm="ngForm" class="mb-4 row g-3">
+    <div class="col-md-8">
+      <input [(ngModel)]="job.title" name="jobName" class="form-control" placeholder="Job Name">
+    </div>
+    <div class="col-md-4">
+      <button class="btn btn-success w-100">Add Job</button>
+    </div>
+  </form>
+
+  <div *ngIf="selectedJob" class="mb-4 row g-3">
+    <div class="col-md-8">
+      <input [(ngModel)]="selectedJob.title" name="editTitle" class="form-control ">
+    </div>
+    <div class="col-md-4">
+       <button class="btn btn-warning w-100" (click)="updateJob()">Update Job</button>
+    </div>
+  </div>
+
+  <div class="table-responsive">
+    <table class="table table-striped table-bordered">
+      <thead class="table-primary">
+        <tr>
+          <th>ID</th>
+          <th>Job Name</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let job of jobs">
+          <td>{{job.id}}</td>
+          <td>{{job.title}}</td>
+          <td>
+            <button class="btn btn-sm btn-warning me-2" (click)="selectJob(job)">Edit</button>
+            <button class="btn btn-sm btn-danger" (click)="deleteJob(job.id)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

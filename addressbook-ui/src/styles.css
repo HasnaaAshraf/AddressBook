@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.page-container {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #f8f9fa; 
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; 
+}
+
+.table td{
+    margin-left: 50rem;
+}
+
+
+@media (max-width: 576px) {
+  .table td, .table th {
+    font-size: 0.67rem; 
+    padding: 0.2rem 0.2rem;
+    white-space: nowrap; 
+  }
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 1rem;
+  }
+}
